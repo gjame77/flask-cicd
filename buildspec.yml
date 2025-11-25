@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "No build required. Packaging only."
+artifacts:
+  files:
+    - app.py
+    - requirements.txt
+    - appspec.yml
+    - scripts/**/*
