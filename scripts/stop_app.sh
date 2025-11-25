@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo pkill -f "python3 app.py"
+pkill -f "python3 app.py"
